@@ -25,10 +25,15 @@
             {
               "name": "author",
               "type": "AMAZON.Author"
+            },
+            {
+              "name": "person",
+              "type": "AMAZON.Person"
             }
           ],
           "samples": [
-            "for a quote by {author}"
+            "for a quote by {author}",
+            "for a quote by {person}"
           ]
         },
         {
@@ -187,6 +192,31 @@
             {
               "name": {
                 "value": "wisdom"
+              }
+            },
+            {
+              "name": {
+                "value": "rain"
+              }
+            },
+            {
+              "name": {
+                "value": "storm"
+              }
+            },
+            {
+              "name": {
+                "value": "initiative"
+              }
+            },
+            {
+              "name": {
+                "value": "motivation"
+              }
+            },
+            {
+              "name": {
+                "value": "cycling"
               }
             }
           ],
