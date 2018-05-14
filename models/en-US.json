@@ -1,0 +1,66 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "good quotes",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetAuthorQuoteIntent",
+          "slots": [
+            {
+              "name": "author",
+              "type": "AMAZON.Author"
+            }
+          ],
+          "samples": [
+            "for a quote by {author}"
+          ]
+        },
+        {
+          "name": "GetTagQuoteIntent",
+          "slots": [
+            {
+              "name": "tag",
+              "type": "AMAZON.LITERAL"
+            }
+          ],
+          "samples": [
+            "for a quote about {some tag words here|tag}"
+          ]
+        },
+        {
+          "name": "GetTitleQuoteIntent",
+          "slots": [
+            {
+              "name": "title",
+              "type": "AMAZON.Book"
+            },
+            {
+              "name": "series",
+              "type": "AMAZON.BookSeries"
+            }
+          ],
+          "samples": [
+            "for a quote from {series}",
+            "for a quote from {title}"
+          ]
+        }
+      ]
+    }
+  }
+}
