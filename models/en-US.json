@@ -36,11 +36,11 @@
           "slots": [
             {
               "name": "tag",
-              "type": "AMAZON.LITERAL"
+              "type": "TAGS"
             }
           ],
           "samples": [
-            "for a quote about {some tag words here|tag}"
+            "for a quote about {tag}"
           ]
         },
         {
@@ -59,6 +59,138 @@
             "for a quote from {series}",
             "for a quote from {title}"
           ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "hope"
+              }
+            },
+            {
+              "name": {
+                "value": "validation"
+              }
+            },
+            {
+              "name": {
+                "value": "disgust"
+              }
+            },
+            {
+              "name": {
+                "value": "health"
+              }
+            },
+            {
+              "name": {
+                "value": "help"
+              }
+            },
+            {
+              "name": {
+                "value": "clarity"
+              }
+            },
+            {
+              "name": {
+                "value": "action"
+              }
+            },
+            {
+              "name": {
+                "value": "energy"
+              }
+            },
+            {
+              "name": {
+                "value": "perseverance"
+              }
+            },
+            {
+              "name": {
+                "value": "science"
+              }
+            },
+            {
+              "name": {
+                "value": "education"
+              }
+            },
+            {
+              "name": {
+                "value": "relationships"
+              }
+            },
+            {
+              "name": {
+                "value": "life"
+              }
+            },
+            {
+              "name": {
+                "value": "success"
+              }
+            },
+            {
+              "name": {
+                "value": "death"
+              }
+            },
+            {
+              "name": {
+                "value": "happiness"
+              }
+            },
+            {
+              "name": {
+                "value": "truth"
+              }
+            },
+            {
+              "name": {
+                "value": "philosophy"
+              }
+            },
+            {
+              "name": {
+                "value": "ingenuity"
+              }
+            },
+            {
+              "name": {
+                "value": "intuition"
+              }
+            },
+            {
+              "name": {
+                "value": "running"
+              }
+            },
+            {
+              "name": {
+                "value": "love"
+              }
+            },
+            {
+              "name": {
+                "value": "pain"
+              }
+            },
+            {
+              "name": {
+                "value": "art"
+              }
+            },
+            {
+              "name": {
+                "value": "wisdom"
+              }
+            }
+          ],
+          "name": "TAGS"
         }
       ]
     }
